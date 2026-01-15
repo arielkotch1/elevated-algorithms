@@ -80,6 +80,9 @@ export const metadata: Metadata = {
       { url: "/favicon.svg?v=4", type: "image/svg+xml" },
     ],
   },
+  verification: {
+    google: "_0Z58jkzLbRCI3GTlELHy3eyk9LsC65f850MiwTQCho",
+  },
   robots: {
     index: true,
     follow: true,
