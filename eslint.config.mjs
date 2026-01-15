@@ -31,6 +31,7 @@ const eslintConfig = [
           selfClosing: "after-props",
         },
       ],
+      "react/jsx-closing-bracket-location": 'off',
       "react/no-unescaped-entities": "off",
       "react/jsx-no-comment-textnodes": "off",
       "react/jsx-indent-props": ["error", 2],
