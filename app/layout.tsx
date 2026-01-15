@@ -61,6 +61,20 @@ export const metadata: Metadata = {
     description: metaDescription,
     images: ["/opengraph-image"],
   },
+  icons: {
+    icon: [
+      { url: "/icon", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/brand-icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: [
+      { url: "/icon", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/icon", type: "image/png" }],
+  },
   robots: {
     index: true,
     follow: true,

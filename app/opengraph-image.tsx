@@ -37,8 +37,22 @@ export default function OpenGraphImage() {
             color: "#9EB6FF",
           }}
         >
-          <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ color: "#7C9BFF" }}>&gt;</span> elevated algorithms
+          <span style={{ display: "flex", alignItems: "center", gap: 14 }}>
+            <svg
+              width={42}
+              height={42}
+              viewBox="0 0 64 64"
+              aria-hidden
+              style={{
+                filter: "drop-shadow(0 0 18px rgba(126,224,195,0.6))",
+              }}
+            >
+              <rect x="4" y="4" width="56" height="56" rx="14" fill="#0A0F1E" />
+              <path d="M22 16 44 32 22 48Z" fill="#7EE0C3" />
+            </svg>
+            <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <span style={{ color: "#7C9BFF" }}>&gt;</span> elevated algorithms
+            </span>
           </span>
           <span
             style={{
