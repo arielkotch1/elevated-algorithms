@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/opengraph-image",
+        url: "/opengraph-image?v=2",
         width: 1200,
         height: 630,
         alt: "Elevated Algorithms turning AI sites into production apps",
@@ -59,21 +59,26 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Elevated Algorithms | Production-ready AI websites",
     description: metaDescription,
-    images: ["/opengraph-image"],
+    images: ["/opengraph-image?v=2"],
   },
   icons: {
     icon: [
-      { url: "/icon", type: "image/png" },
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/brand-icon.svg", type: "image/svg+xml" },
+      { url: "/icon?v=3", type: "image/png" },
+      { url: "/favicon.svg?v=3", type: "image/svg+xml" },
+      { url: "/icon.svg?v=3", type: "image/svg+xml" },
+      { url: "/brand-icon.svg?v=3", type: "image/svg+xml" },
+      { url: "/favicon.ico?v=3", type: "image/x-icon" },
     ],
     shortcut: [
-      { url: "/icon", type: "image/png" },
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon?v=3", type: "image/png" },
+      { url: "/favicon.svg?v=3", type: "image/svg+xml" },
+      { url: "/icon.svg?v=3", type: "image/svg+xml" },
+      { url: "/favicon.ico?v=3", type: "image/x-icon" },
     ],
-    apple: [{ url: "/icon", type: "image/png" }],
+    apple: [
+      { url: "/icon?v=3", type: "image/png" },
+      { url: "/favicon.svg?v=3", type: "image/svg+xml" },
+    ],
   },
   robots: {
     index: true,
